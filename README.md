@@ -5,11 +5,8 @@ It runs a small HTTP server inside Codespaces and loads your `src/main.py` via a
 
 ## Quick start (students)
 1. Open the assignment → **Open in Codespaces**.
-2. Wait for the container to start. It auto-runs `python -m http.server 8000`.
-3. Go to the **Ports** panel; a forwarded link for **8000** should appear and open automatically.
-   - If it doesn’t open, click the globe icon next to port 8000 to open in the browser.
-   - To share with your teacher/classmates, right-click port 8000 → **Make Public** and copy the URL.
-4. Edit `src/main.py` → **save** → **refresh the browser** to see changes. No git push needed.
+2. Open the Preview with Shift-Ctrl-P and type "Live Preview: Start Server"
+3. Edit `src/main.py` → **save** → **refresh the browser** to see changes. The page should update on save.
 
 ## Publishing (optional)
 When you want to share final projects without Codespaces:
