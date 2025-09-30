@@ -18,7 +18,7 @@ def update():
         dx = -dx
     if y <= 0 or y >= H - 10:
         dy = -dy
-
+ 
 
 def draw():
     pyxel.cls(0)              # clear screen to color 0 (black)
