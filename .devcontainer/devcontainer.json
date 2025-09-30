@@ -2,7 +2,7 @@
   "name": "Pyxel Web",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "waitFor": "onCreateCommand",
-  "postCreateCommand": "python serve.py",
+  "postCreateCommand": "",
   "forwardPorts": [
     5500
   ],
